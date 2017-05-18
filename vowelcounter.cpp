@@ -1,3 +1,6 @@
+// Copyright (c) 2017 Abhineet Dubey. All rights reserved.
+// Use of this source code is governed by the GPLv3 license that can be
+// found in the LICENSE file.
 #include<stdio.h>
 #include<iostream>
 #include<string.h>
@@ -17,7 +20,7 @@ while(true){
  				else if(input[i]=='e') eCount++;
  				else if(input[i]=='i') iCount++;
  				else if(input[i]=='o') oCount++;
- 				else if(input[i]=='u') uCount++;		
+ 				else if(input[i]=='u') uCount++;
  		}
  	}
  cout << "Number of vowels:\n";
