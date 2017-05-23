@@ -8,4 +8,5 @@
 	<li> <b>Task 5:</b> warZone: Tank Battle Game - show user the distance of current enemy tank, ask for angle to shoot at, give suggestions like task 3, at the end give user option to continue or report the total number of kills (fix max shots to 10 per tank) </li>
 	<li> <b>Task 6:</b> startPage: Make a simple Firefox start page maker, which allows user to input any number of links with their name and creates a simple html page (use CSS to beautify the page)</li>
 </ul>
+<p> Task 1 to Task 6 are in folder C++</p>
 <p> Code uploaded here uses primarily C++ and Java, these are commonly found problems on online tutorials or in textbooks </p>
