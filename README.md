@@ -7,4 +7,5 @@
 	<li> <i>animalEstimate</i>: Takes as input - prices of horses, dogs and cats, total money spent and total animal bought and than estimates individual counts. There could be many solutions so prints all of them</li>
 	<li> <i>warZone</i>: Tank Battle Game - shows user the distance of current enemy tank, asks for angle to shoot at, give suggestions like task 3, at the end gives user option to continue or report the total number of kills (max shots are 10 per tank) </li>
 	<li> <i>startPage</i>: A simple Firefox start page maker, which allows user to input any number of links with their name and creates a simple html page (CSS used for minor formatting)</li>
+	<li> <i>sortingAlgos</i>: Implementation of Insertion-Sort, Quick-Sort, Merge-Sort and Heap-Sort</li>
 </ul>
