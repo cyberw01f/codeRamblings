@@ -1,9 +1,8 @@
-/*
-Tested on gcc version 6.3.1 20161221 (Red Hat 6.3.1-1) (GCC)
-*/
+// Copyright (c) 2017 Abhineet Dubey. All rights reserved.
+// Use of this source code is governed by the GPLv3 license that can be
+// found in the LICENSE file.
 #include<iostream>
 #include<stdio.h>
-//#include<array>
 using namespace std;
 
 int maxHeapify(int [], int, int);
@@ -11,14 +10,14 @@ int buildMaxHeap(int [],int);
 int heapSort(int [], int);
 
 int main(){
-	
+
 	int n; //size of array
 	cin	>>	n;
 	int A[n]; //input array, fetching input array values using for loop below
    	for(int i=1; i<=n; i++){
     	cin >> A[i];
    	}
-   	int hSize=n; 
+   	int hSize=n;
    	heapSort(A,hSize); //primary method
     for(int i=1;i<=n;i++){ //printing array as required
       		cout << A[i] << ';' ;
@@ -34,7 +33,7 @@ int maxHeapify(int Array[], int index, int heapSize){ //recursive method called 
 	int l,r,largest,temp;
 	l=2*index; //LEFT(i)
 	r=2*index+1; //RIGHT(i)
-	
+
 	if(l<=heapSize && Array[l]>Array[index])
 		largest=l;
 	else
@@ -54,12 +53,12 @@ int buildMaxHeap(int arr[],int hS){ // makes max heap by calling max heapify
 	for(int i = hS/2;i>=1;i--){
 		maxHeapify(arr,i,hS);
 	}
-	
+
 }
 
 
 int heapSort(int a[], int hpSize){
-	
+
 	int temp;
 	buildMaxHeap(a,hpSize);
 	for(int i=hpSize;i>=2;i--){
@@ -69,5 +68,5 @@ int heapSort(int a[], int hpSize){
 		//hpSize = hpSize - 1;
 		maxHeapify(a,1,i-1);
 	}
-	
+
 }

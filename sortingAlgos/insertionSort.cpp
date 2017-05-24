@@ -1,8 +1,6 @@
-/*
-Tested on gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4)
-*/
-
-
+// Copyright (c) 2017 Abhineet Dubey. All rights reserved.
+// Use of this source code is governed by the GPLv3 license that can be
+// found in the LICENSE file.
 #include <stdio.h>
 #include <iostream>
 
@@ -15,7 +13,7 @@ int main(){
 	for (i = 0; i < length; i++){
 		cin >> arr[i];
 		j=i;
-		while (j>0 && arr[j]<arr[j-1]){					
+		while (j>0 && arr[j]<arr[j-1]){
 			temp = arr[j];
 			arr[j] = arr[j-1];
 			arr[j-1] = temp;

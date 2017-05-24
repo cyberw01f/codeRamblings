@@ -1,8 +1,6 @@
-/*
-Tested on gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4)
-*/
-
-
+// Copyright (c) 2017 Abhineet Dubey. All rights reserved.
+// Use of this source code is governed by the GPLv3 license that can be
+// found in the LICENSE file.
 #include<iostream>
 #include<stdio.h>
 using namespace std;
@@ -19,12 +17,12 @@ int main()
    	for(int i=1; i<=n; i++){
     	    cin >> a[i];
    		 }
-	
-	//call merge sort function (see below main) 
+
+	//call merge sort function (see below main)
 	int p=1,r=n;
     mergeSort(a,p,r);
 
-	//print the sorted array according to the output requirement 
+	//print the sorted array according to the output requirement
    	for(int i=1;i<=n;i++){
       		cout << a[i] << ';' ;
    		}
@@ -48,7 +46,7 @@ void merge(int a[],int p,int q,int r){
 
       int n1=q-p+1, n2=r-q;
 	  int L[n1+1], R[n2+1]; //L and R are left and right sub-arrays respectively
-      //create left array 
+      //create left array
 	  for(int i=1;i<=n1;i++){
          L[i]=a[p+i-1];
       }
