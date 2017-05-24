@@ -1,12 +1,10 @@
 # Code Ramblings
-<p> Simple programming projects that can be used for fun or for practicing basics</p>
+<p> Simple programming projects done for fun in C++ </p>
 <ul>
-	<li> <b>Task 1:</b> vowelCount: Count the number of vowels in a given word, return to prompt after result for next word</li>
-	<li> <b>Task 2:</b> wordCounter: Count the number of characters in a file, skip spaces and newline character in total count</li>
-	<li> <b>Task 3:</b> numberGuess: Generate a random number between 0 and 100, ask player to guess the secret number,provide hints "that's too high" or "that's too low"</li>
-	<li> <b>Task 4:</b> animalEstimate: Take as input - prices of horses, dogs and cats, total money spent and total animal bought and than estimate individual counts. There could be many solutions so print all of theme</li>
-	<li> <b>Task 5:</b> warZone: Tank Battle Game - show user the distance of current enemy tank, ask for angle to shoot at, give suggestions like task 3, at the end give user option to continue or report the total number of kills (fix max shots to 10 per tank) </li>
-	<li> <b>Task 6:</b> startPage: Make a simple Firefox start page maker, which allows user to input any number of links with their name and creates a simple html page (use CSS to beautify the page)</li>
+	<li> <b>1:</b> <i>vowelCount</i>: Counts the number of vowels in a given word, returns the prompt after result for next word</li>
+	<li> <b>2:</b> <i>wordCounter</i>: Counts the number of characters in a file, skips spaces and newline characters in total count</li>
+	<li> <b>3:</b> <i>numberGuess</i>: Generates a random number between 0 and 100, asks player to guess the secret number, provides hints "that's too high" or "that's too low"</li>
+	<li> <b>4:</b> <i>animalEstimate</i>: Takes as input - prices of horses, dogs and cats, total money spent and total animal bought and than estimates individual counts. There could be many solutions so prints all of them</li>
+	<li> <b>5:</b> <i>warZone</i>: Tank Battle Game - shows user the distance of current enemy tank, asks for angle to shoot at, give suggestions like task 3, at the end gives user option to continue or report the total number of kills (max shots are 10 per tank) </li>
+	<li> <b>6:</b> <i>startPage</i>: A simple Firefox start page maker, which allows user to input any number of links with their name and creates a simple html page (CSS used for minor formatting)</li>
 </ul>
-<p> Task 1 to Task 6 are in folder C++</p>
-<p> Code uploaded here uses primarily C++ and Java, these are commonly found problems on online tutorials or in textbooks </p>
